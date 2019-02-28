@@ -1,0 +1,47 @@
+h1{
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 50px;
+    background-color: orange;
+    margin-left: -120px;
+    margin-right: 140px;
+}
+body{
+    background-image:url(https://previews.123rf.com/images/intara1/intara11809/intara1180900049/107708315-checkered-pattern-with-vertical-striped-lines-light-blue-colors-vector-illustration-eps10-can-be-use.jpg)
+}
+
+   
+.container{
+    margin: 35px;
+}
+p{
+    color: green;
+    background-color: tan;
+    margin-left: 25px;
+}
+h2{
+    color: purple;
+    background-color: seagreen;
+    margin-left: -121px;
+    margin-right: 321px;
+    padding: 80px;
+}
+h3{
+    color: black;
+    background-color: blue;
+    padding: 80px;
+    margin-left: -311px;
+    margin-right: 687px;
+}
+h4{
+    color: whitesmoke;
+    background-color: aquamarine;
+    padding: 15px;
+    margin-left: -135px;
+    margin-right: 220px;
+    
+    
+}
+    
+    
+

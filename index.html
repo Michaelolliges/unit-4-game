@@ -6,26 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals collector!</title>
-    <link rel="stylesheet" href= "assets/css/reset.css">
-    <link rel="stylesheet" href= "assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    
-    <h1>Crystals collector!</h1>
+    <div class="container">
+        <div class="row">
+            <div class=col-sm-5>
+                <h1>Crystals collector!</h1>
+            </div>
+        </div>
+    </div>
 
-    <p>You will be given a random number at the start of the game. </p>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>You will be given a random number at the start of the game.
+                <br>
+                <br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total
+                score.
+                <br>
+                <br>
+                You win the game by matching your score to the random number, you lose the game i your total score goes
+                above the
+                random number.
+                <br>
+                <br>
+                The value of each crystal is hidden from you until you click it.
+                <br>
+                <br>
+                Each time the game starts,the game will change the values of each crystal.</p>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 id="numberToGet"></h2>
+            </div>
+            <div class="col">
+                <h3>
+                    Wins:
+                    Losses:
+                </h3>
 
-    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
-        score.</p>
 
-    <p>You win the game by matching your score to the random number, you lose the game i your total score goes above the
-        random number.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
 
-        <p>The value of each crystal is hidden from you until you click it.</p>
+                <div class="container">
+                    <div class="row">
+                        <div >
 
-        <p>Each time the game starts,the game will change the values of each crystal.</p>
-        <script src="assets/javascript/game.js"></script>
+                            <img class="buttons" id="image1" value="1" data="1"
+                                src="http://birthstonesbymonths.net/wp-content/uploads/2012/02/january-birthstone-garnet-150x150.jpg">
+
+                            <img class="buttons" id="image2" value="2" data="2"
+                                src="http://www.lucysmilesaway.com/wp-content/uploads/sapphire-gemstone-gem-testing-lab-5-carat-shani-ratna-blue-sapphire-neelam-buy-gem-150x150.jpg">
+
+                            <img class="buttons" id="image3" value="3" data="3"
+                                src="https://astromatrix.app/images/crystals/yellow%20tourmaline-sm.jpg">
+
+                            <img class="buttons" id="image4" value="4" data="4"
+                                src="https://www.gemselections.in/upload/category/1525082430zambian-emerald.jpg">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4 id="total">
+                              Total crystals appear here!
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="assets/javascript/game.js"></script>
+                
 </body>
 
 </html>
